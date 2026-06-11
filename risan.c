@@ -1,13 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-
-int x_mod_y(int x, int y)
-{
-    return x % y;
-}
-
-int main()
+int risan()
 {
     int x ;
     int y ;
