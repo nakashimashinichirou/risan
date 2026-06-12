@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+//今回別に使ってない
 int risan()
 {
     int x ;

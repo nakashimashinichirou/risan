@@ -22,3 +22,17 @@ int getE(int L)
         }/* code */
     }
 }
+
+int getD(int E, int L)
+{
+    int D;
+    int amari;
+    while(true)
+    {
+        amari = gcd(E*D, L);
+        if (amari == 1)
+        {
+            return D;
+        }
+    }
+}
