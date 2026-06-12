@@ -30,7 +30,7 @@ int getD(int E, int L)
     while(true)
     {
         amari = getGCD(E*D, L);
-        if (amari == 1)
+        if (amari == 1 && L < E*D)
         {
             return D;
         }

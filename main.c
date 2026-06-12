@@ -11,6 +11,10 @@ int main()
 {
     // printf("%d\n", getGCD(1071, 1029));
     // printf("%d\n", getLCM(1071, 1029));
+    // printf("%d\n", getGCD(49, 520));
+    // return 0;
+
+
     printf("%d\n", getPrimeRansuu());
 
     int p = 0;
