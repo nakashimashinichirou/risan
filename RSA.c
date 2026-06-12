@@ -4,6 +4,11 @@
 #include <stdbool.h>
 #include "ransuu.h"
 
+int getN(int p, int q)
+{
+    return p * q;
+}
+
 int getL(int p, int q)
 {
     return getLCM(p-1, q-1);
@@ -25,14 +30,13 @@ int getE(int L)
 
 int getD(int E, int L)
 {
-    int D;
-    int amari;
+    int D = 1;
     while(true)
-    {
-        amari = getGCD(E*D, L);
-        if (amari == 1 && L < E*D)
+    {        
+        if ((E * D) % L == 1)
         {
             return D;
         }
+        ++ D;
     }
 }

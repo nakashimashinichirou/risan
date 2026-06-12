@@ -13,7 +13,7 @@ int main()
     // printf("%d\n", getLCM(1071, 1029));
     // printf("%d\n", getGCD(49, 520));
     // return 0;
-
+    srand((unsigned int)time(NULL));
 
     printf("%d\n", getPrimeRansuu());
 
@@ -24,8 +24,9 @@ int main()
     do 
     {
         q = getPrimeRansuu();
-    } while (p != q);
+    } while (p == q);
 
+    int N = getN(p, q);
     int L = getL(p, q);
     int E = getE(L);    
     int D = getD(E, L);

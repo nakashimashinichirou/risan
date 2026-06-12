@@ -26,7 +26,7 @@ int getPrime(int num)
 
 int ransuu(void) {
     // 1. 乱数のシード（種）を現在時刻で初期化する
-    srand((unsigned int)time(NULL));
+    //srand((unsigned int)time(NULL));
 
     // 2. 乱数を生成する（例：0から99の範囲）
     int random_number = rand() % 1000;
