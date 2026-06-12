@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shini_win\\Desktop\\risan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8ABA48E-2AA7-A162-CB87-4048B876F320}|RSA.vcxproj|C:\\Users\\shini_win\\Desktop\\risan\\euclidean_algorithm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8ABA48E-2AA7-A162-CB87-4048B876F320}|RSA.vcxproj|solutionrelative:euclidean_algorithm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8ABA48E-2AA7-A162-CB87-4048B876F320}|RSA.vcxproj|C:\\Users\\shini_win\\Desktop\\risan\\risan.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8ABA48E-2AA7-A162-CB87-4048B876F320}|RSA.vcxproj|solutionrelative:risan.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8ABA48E-2AA7-A162-CB87-4048B876F320}|RSA.vcxproj|C:\\Users\\shini_win\\Desktop\\risan\\euclidean_algorithm.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8ABA48E-2AA7-A162-CB87-4048B876F320}|RSA.vcxproj|solutionrelative:euclidean_algorithm.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "risan.h",
+              "DocumentMoniker": "C:\\Users\\shini_win\\Desktop\\risan\\risan.h",
+              "RelativeDocumentMoniker": "risan.h",
+              "ToolTip": "C:\\Users\\shini_win\\Desktop\\risan\\risan.h",
+              "RelativeToolTip": "risan.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-12T10:25:00.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "euclidean_algorithm.h",
+              "DocumentMoniker": "C:\\Users\\shini_win\\Desktop\\risan\\euclidean_algorithm.h",
+              "RelativeDocumentMoniker": "euclidean_algorithm.h",
+              "ToolTip": "C:\\Users\\shini_win\\Desktop\\risan\\euclidean_algorithm.h",
+              "RelativeToolTip": "euclidean_algorithm.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-12T10:22:25.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "euclidean_algorithm.c",
+              "DocumentMoniker": "C:\\Users\\shini_win\\Desktop\\risan\\euclidean_algorithm.c",
+              "RelativeDocumentMoniker": "euclidean_algorithm.c",
+              "ToolTip": "C:\\Users\\shini_win\\Desktop\\risan\\euclidean_algorithm.c",
+              "RelativeToolTip": "euclidean_algorithm.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-06-12T10:22:10.296Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

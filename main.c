@@ -2,11 +2,45 @@
 #include "risan.h"
 #include <stdio.h>
 #include <stdbool.h>
-
+#include "ransuu.h"
+#include <time.h>
+#include <stdlib.h>
+#include "RSA.h"
 
 int main()
 {
-    printf("%d\n", getGCD(1071, 1029));
-    printf("%d\n", getLCM(1071, 1029));
+    // printf("%d\n", getGCD(1071, 1029));
+    // printf("%d\n", getLCM(1071, 1029));
+    printf("%d\n", getPrimeRansuu());
+
+    int p = 0;
+    int q = 0;
+
+    do 
+    {
+        p = getPrimeRansuu();
+        q = getPrimeRansuu();
+    } while (p != q);
+
+    int L = getL(p, q);
+    printf("L :%d\n", L);
+    int E = getE(L);    
+    printf("E :%d\n", E);
+    printf("L :%d\n", L);
+    
+    // srand((unsigned int)time(NULL));
+
+    // // 2. 乱数を生成する（例：0から99の範囲）
+    // int random_number = rand() % 100;
+    
+    // printf("生成された乱数: %d\n", random_number);
+
+    // int n;
+    // while (true)
+    // {
+    //     scanf("%d", &n);
+    //     printf("%d\n", getPrime(n));
+    // }
+    
     return 0;
 }
