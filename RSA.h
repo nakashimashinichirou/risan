@@ -10,4 +10,4 @@ int getL(int p, int q);
 
 int getE(int L);
 
-int getD(int E, int L)
+int getD(int E, int L);

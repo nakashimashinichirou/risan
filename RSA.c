@@ -29,7 +29,7 @@ int getD(int E, int L)
     int amari;
     while(true)
     {
-        amari = gcd(E*D, L);
+        amari = getGCD(E*D, L);
         if (amari == 1)
         {
             return D;

@@ -16,17 +16,19 @@ int main()
     int p = 0;
     int q = 0;
 
+    p = getPrimeRansuu();
     do 
     {
-        p = getPrimeRansuu();
         q = getPrimeRansuu();
     } while (p != q);
 
     int L = getL(p, q);
-    printf("L :%d\n", L);
     int E = getE(L);    
-    printf("E :%d\n", E);
+    int D = getD(E, L);
+
     printf("L :%d\n", L);
+    printf("E :%d\n", E);
+    printf("D :%d\n", D);
     
     // srand((unsigned int)time(NULL));
 
