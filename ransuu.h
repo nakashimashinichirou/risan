@@ -4,6 +4,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-int ransuu(void);
-int getPrime(int num);
-int getPrimeRansuu(); 
+long long ransuu(void);
+long long getPrime(long long num);
+long long getPrimeRansuu(); 

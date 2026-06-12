@@ -1,3 +1,3 @@
 ﻿#pragma once
-int getGCD(int x, int y);
-int getLCM(int x, int y);
+long long getGCD(long long x, long long y);
+long long getLCM(long long x, long long y);

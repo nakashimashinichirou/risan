@@ -9,16 +9,16 @@
 
 int main()
 {
-    // printf("%d\n", getGCD(1071, 1029));
-    // printf("%d\n", getLCM(1071, 1029));
-    // printf("%d\n", getGCD(49, 520));
+    // printf("%lld\n", getGCD(1071, 1029));
+    // printf("%lld\n", getLCM(1071, 1029));
+    // printf("%lld\n", getGCD(49, 520));
     // return 0;
-    srand((unsigned int)time(NULL));
+    srand((unsigned long long)time(NULL));
 
-    printf("%d\n", getPrimeRansuu());
+    printf("%lld\n", getPrimeRansuu());
 
-    int p = 0;
-    int q = 0;
+    long long p = 0;
+    long long q = 0;
 
     p = getPrimeRansuu();
     do 
@@ -26,27 +26,27 @@ int main()
         q = getPrimeRansuu();
     } while (p == q);
 
-    int N = getN(p, q);
-    int L = getL(p, q);
-    int E = getE(L);    
-    int D = getD(E, L);
+    long long N = getN(p, q);
+    long long L = getL(p, q);
+    long long E = getE(L);    
+    long long D = getD(E, L);
 
-    printf("L :%d\n", L);
-    printf("E :%d\n", E);
-    printf("D :%d\n", D);
+    printf("L :%lld\n", L);
+    printf("E :%lld\n", E);
+    printf("D :%lld\n", D);
     
-    // srand((unsigned int)time(NULL));
+    // srand((unsigned long long)time(NULL));
 
     // // 2. 乱数を生成する（例：0から99の範囲）
-    // int random_number = rand() % 100;
+    // long long random_number = rand() % 100;
     
-    // printf("生成された乱数: %d\n", random_number);
+    // printf("生成された乱数: %lld\n", random_number);
 
-    // int n;
+    // long long n;
     // while (true)
     // {
-    //     scanf("%d", &n);
-    //     printf("%d\n", getPrime(n));
+    //     scanf("%lld", &n);
+    //     printf("%lld\n", getPrime(n));
     // }
     
     return 0;

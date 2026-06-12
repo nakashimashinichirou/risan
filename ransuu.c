@@ -4,14 +4,14 @@
 #include <stdbool.h>
 
 
-int getPrime(int num)
+long long getPrime(long long num)
 {
     bool isPrime = true;
-    for(int i= 2; i <= num/i; ++i)
+    for(long long i= 2; i <= num/i; ++i)
     {
-        // printf("num :%d\n", num);
-        // printf("i :%d\n", i);
-        // printf("num i :%d\n", num % i);
+        // printf("num :%lld\n", num);
+        // printf("i :%lld\n", i);
+        // printf("num i :%lld\n", num % i);
         if (num % i == 0)
         {
             isPrime = false;
@@ -24,27 +24,27 @@ int getPrime(int num)
     return -1;
 }
 
-int ransuu(void) {
+long long ransuu(void) {
     // 1. 乱数のシード（種）を現在時刻で初期化する
-    //srand((unsigned int)time(NULL));
+    //srand((unsigned long long)time(NULL));
 
     // 2. 乱数を生成する（例：0から99の範囲）
-    int random_number = rand() % 1000;
+    long long random_number = rand() % 1000;
     
-    //printf("生成された乱数: %d\n", random_number);
+    //printf("生成された乱数: %lld\n", random_number);
 
     return random_number;
 }
 
-int getPrimeRansuu()
+long long getPrimeRansuu()
 {
-    int Prime = 0;
+    long long Prime = 0;
     while (true)
     {
         Prime = getPrime(ransuu());
         if (Prime != -1)
         {
-            printf("獲得した素数乱数: %d\n", Prime);
+            printf("獲得した素数乱数: %lld\n", Prime);
             return Prime;
         }
     }

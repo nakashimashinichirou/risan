@@ -4,23 +4,23 @@
 #include <stdbool.h>
 #include "ransuu.h"
 
-int getN(int p, int q)
+long long getN(long long p, long long q)
 {
     return p * q;
 }
 
-int getL(int p, int q)
+long long getL(long long p, long long q)
 {
     return getLCM(p-1, q-1);
 }
 
-int getE(int L)
+long long getE(long long L)
 {
-    int E;
+    long long E;
     while (true)
     {
         E  = ransuu();
-        printf("E探索中 E :%d\n", E);
+        printf("E探索中 E :%lld\n", E);
         if (1 < E && E < L && getGCD(E,L) == 1)
         {
             return E;
@@ -28,9 +28,9 @@ int getE(int L)
     }
 }
 
-int getD(int E, int L)
+long long getD(long long E, long long L)
 {
-    int D = 1;
+    long long D = 1;
     while(true)
     {        
         if ((E * D) % L == 1)

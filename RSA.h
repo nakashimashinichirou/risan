@@ -6,10 +6,10 @@
 #include <stdbool.h>
 #include "ransuu.h"
 
-int getL(int p, int q);
+long long getL(long long p, long long q);
 
-int getE(int L);
+long long getE(long long L);
 
-int getD(int E, int L);
+long long getD(long long E, long long L);
 
-int getN(int p, int q);
+long long getN(long long p, long long q);

@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int getGCD(int x, int y)
+long long getGCD(long long x, long long y)
 {
     if (x % y == 0)
     {
@@ -9,7 +9,7 @@ int getGCD(int x, int y)
     return getGCD (y, x % y);
 }
 
-int getLCM(int x, int y)
+long long getLCM(long long x, long long y)
 {
     return (x * y) / getGCD(x, y);
 }

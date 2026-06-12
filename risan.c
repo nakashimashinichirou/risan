@@ -2,31 +2,31 @@
 #include <stdbool.h>
 
 //今回別に使ってない
-int risan()
+long long risan()
 {
-    int x ;
-    int y ;
-    int amari ;
+    long long x ;
+    long long y ;
+    long long amari ;
     printf("xを入力してください\n>>");
-    scanf("%d", &x);
+    scanf("%lld", &x);
     printf("yを入力してください\n>>");
-    scanf("%d", &y);
+    scanf("%lld", &y);
     printf("あまりを入力してください\n>>");
-    scanf("%d", &amari);
-    int x_ruijyou = x;
+    scanf("%lld", &amari);
+    long long x_ruijyou = x;
     //0乗
     if (1 % y == amari)
     {
-        printf("%d", 0);
+        printf("%lld", 0);
     }
     //1乗からはこれで調べる
-    int i = 1;
+    long long i = 1;
     while(x_ruijyou % y != amari)
     {
         x_ruijyou *= x;
         ++i;
     }
 
-    printf("離散対数は%dです\n", i);
+    printf("離散対数は%lldです\n", i);
     return 0;
 }
